@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "es",
+        "noEmit": false,
+        "incremental": false,
+        "module": "CommonJS",
+        "declaration": true,
+        "strict": true
+    },
+    "exclude": [
+        "config/**/*.ts",
+        "src/**/*.test.ts"
+    ]
+}
